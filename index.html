@@ -1,87 +1,74 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Virakboth's Website</title>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
-      body {
-        background-color: #000000;
-        text-align: center;
-        color: #ffffff;
-      }
-      .mainweb {
-        font-family: "JetBrains Mono", monospace;
-      }
-      .pfp {
-        overflow-x: auto;
-      }
-      .hobby {
-        background-color: #333333;
-        margin: 50px;
-        border-radius: 5px;
-      }
-      .tryout {
-        background-color: #333333;
-        margin: 50px;
-        border-radius: 5px;
-      }
-      .without_css {
-        font-family: Times New Roman;
-        color: #000000;
-      }
-    </style>
-    <script>
-      var x;
-      x = 0;
-      function myClick() {
-        x = x + 1;
-        document.getElementById('jsx').innerHTML = "Click: " + x;
-      }
-    </script>
-  </head>
-  <body>
-    <div class="mainweb">
+
+<head>
+  <title> Virakboth's Website </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    html {
+      height: 100%;
+      width: 100%;
+      font-family: Helvetica, sans-serif;
+    }
+
+    body {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="jumbotron text-center">
+    <h1> Virakboth's Website </h1>
+    <p> I'm Virakboth, a young 13yr <b>Web Developer</b> & Programmer</p>
+  </div>
+  <h2>Often asked questions</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>What do you know in programming?</h3>
+        <p>I know some <b>Python, Java, and mostly web development basics</b></p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Why do you want to learn programming?</h3>
+        <p>I originally wanted to make games in <b>Roblox</b>,</p>
+        <p>but then I realized theres more fun into programming!</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Any tips on how I can learn programming myself?</h3>        
+        <p>Whenever you're watching a video in your coding class (or if its live)</p>
+        <p>Try to <b>use the examples</b> they showed you.</p>
+      </div>
+      <h2>Skills in programming</h2>
       <div>
-        <p style="font-size: 200%;">Welcome to <strong> Virakboth's Website! </strong></p>
-      </div><br>
-      <div>
-        <p style="font-size: 175%;">Welcome to my website! it has information on what I like to do!</p>
-      </div><br><br><br>
-      <div class="hobby">
-        <h2>My Hobbies</h2>
-        <div>
-          <ul>
-            <li>
-              <p>Make Websites (in HTML CSS JAVASCRIPT)</p>
-            </li>
-            <li>
-              <p>Studying Python, Java, etc.</p>
-            </li>
-            <li>
-              <p>Playing Games when I have free time</p>
-            </li>
-          </ul>
+        <h3> What are my leveling in programming? </h3>
+      </div>
+      <div class="container">
+        <h2>Python</h2>
+        <div class="progress">
+          <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+            65% (Intermediate)
+          </div>
         </div>
-      </div><br><br><br>
-      <div class="tryout">
-        <h2>What do each language do in a website</h2>
-        <br><br>
-        <div> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png" style="width: 50px;">
-          <p>HTML</p>
-          <p>It gives this website structure, like where to place the text and why to</p>
+        <h2>Java</h2>
+        <div class="progress">
+          <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:10%">
+            10% (Noob)
+          </div>
         </div>
-        <div> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/120px-CSS3_logo_and_wordmark.svg.png" style="width: 50px;">
-          <p>CSS</p>
-          <p>It gives websites color and style, like fonts.</p>
-          <p class="without_css">This text is what it looks like without CSS.</p>
-        </div>
-        <div> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/240px-JavaScript-logo.png" style="width: 50px;">
-          <p>Javascript (JS)</p>
-          <p>It makes your website more interactive. and JS is an actual programming language</p>
-          <p>This is a simple clicking function in JS:</p>
-          <p id="jsx">Click: 0</p>
-          <button type="button" onclick="myClick()">Click me</button>
+        <h2>Web Development</h2>
+        <div class="progress">
+          <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:55%">
+            55% (Javascript Beginner)
+          </div>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
