@@ -1,0 +1,11 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  text-align: center;
+  color: white;
+  background-color: #202020;
+}
