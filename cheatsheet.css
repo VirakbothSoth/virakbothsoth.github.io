@@ -1,0 +1,26 @@
+code {
+  color: #e0e0e0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.lt {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.cheatsheet {
+  color: black;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.jumbotron {
+  background-color: #101010;
+{
+  
