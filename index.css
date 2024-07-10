@@ -4,6 +4,10 @@ html {
   font-family: Helvetica, sans-serif;
 }
 
+#jumbo {
+  background-color: #101010;
+}
+
 body {
   text-align: center;
   color: white;
