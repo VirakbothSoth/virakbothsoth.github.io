@@ -1,9 +1,5 @@
-ul {
-  margin: 0px 200px 0px 200px;
-}
-
-.jumbotron {
-  background-color: #101010;
+html {
+  text-align: center;
 }
 
 code {
@@ -14,11 +10,23 @@ code {
   color: #dddddd;
 }
 
-body {
+
+html {
   height: 100%;
   width: 100%;
+  color: white;
+  text-align: center;
   font-family: Helvetica, sans-serif;
+}
+
+.jumbotron {
+  color: white;
+  text-align: center;
+  background-color: #101010;
+}
+
+body {
+  color: white;
   text-align: center;
   background-color: #202020;
-  color: white;
 }
