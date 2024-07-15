@@ -1,0 +1,20 @@
+.jumbotron {
+  background-color: #101010;
+}
+
+code {
+  height: 200%;
+  width: 200%;
+  background: #101010;
+  border: 5px solid #101010;
+  color: #dddddd;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  background-color: #202020;
+  color: white;
+}

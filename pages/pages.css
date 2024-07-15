@@ -1,22 +1,24 @@
 html {
-  text-align: center;
-}
-
-code {
-  height: 200%;
-  width: 200%;
-  background: #101010;
-  border: 5px solid #101010;
-  color: #dddddd;
-}
-
-
-html {
   height: 100%;
   width: 100%;
   color: white;
   text-align: center;
   font-family: Helvetica, sans-serif;
+}
+
+code {
+  text-align: center;
+  background: #101010;
+  color: #dddddd;
+}
+
+.container {
+  background-color: #303030;
+}
+
+.example {
+  margin: 0px 200px 0px 200px;
+  background-color: #404040;
 }
 
 .jumbotron {
