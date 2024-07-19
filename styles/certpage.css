@@ -4,6 +4,10 @@ html {
   font-family: Helvetica, sans-serif;
 }
 
+img {
+  border-radius: 12px;
+}
+
 .jumbotron {
   text-align: center;
   color: white;
