@@ -6,6 +6,15 @@ html {
   font-family: Helvetica, sans-serif;
 }
 
+#MainTitle {
+  font-size: 250%;
+}
+
+.facts {
+  background-color: #101010;
+  margin: 0px 150px 0px 150px;
+}
+
 .jumbotron {
   text-align: center;
   color: white;
