@@ -6,6 +6,10 @@ html {
   font-family: Helvetica, sans-serif;
 }
 
+a:link {
+  text-decoration: none;
+}
+
 #MainTitle {
   font-size: 250%;
 }
