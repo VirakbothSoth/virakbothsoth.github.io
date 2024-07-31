@@ -10,10 +10,6 @@ a:link {
   text-decoration: none;
 }
 
-#MainTitle {
-  font-size: 250%;
-}
-
 .facts {
   background-color: #101010;
   margin: 0px 150px 0px 150px;
@@ -29,4 +25,17 @@ body {
   text-align: center;
   color: white;
   background-color: #202020;
+}
+
+/* CSS for Non-Main Pages */
+
+.cert {
+  border-radius: 12px;
+  width: 200px;
+}
+
+code {
+  background-color: #101010;
+  border: 5px solid #101010;
+  color: white;
 }
